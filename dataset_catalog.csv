@@ -1,0 +1,33 @@
+sequence,object_type,object_category,primary_challenge,secondary_challenge,num_frames,difficulty,notes
+Basketball,person,person,background_clutter,fast_motion,725,hard,Multiple players; target switches
+Biker,person,person,occlusion,scale_variation,142,medium,Biker behind obstacles
+Bird2,animal,bird,fast_motion,out_of_view,99,hard,Small fast-moving bird
+BlurBody,person,person,motion_blur,fast_motion,334,medium,Deliberate motion blur sequence
+BlurCar2,vehicle,car,motion_blur,fast_motion,585,medium,Blurred car at speed
+BlurFace,face,person,motion_blur,low_resolution,493,hard,Face blur — not a COCO class
+BlurOwl,animal,bird,motion_blur,illumination,631,hard,Blurred owl — partial COCO class
+Bolt,person,person,fast_motion,motion_blur,350,hard,Sprinting athlete; very fast
+Box,object,misc,illumination,occlusion,1161,hard,Box object — not a COCO class
+Car1,vehicle,car,scale_variation,illumination,1020,easy,Highway car; clean background
+Car4,vehicle,car,illumination,scale_variation,659,medium,Car in varying light
+CarDark,vehicle,car,illumination,low_resolution,393,hard,Car in near-darkness
+CarScale,vehicle,car,scale_variation,background_clutter,253,medium,Car changing size
+ClifBar,object,misc,illumination,rotation,472,hard,Small brand object — not COCO
+Couple,person,person,scale_variation,deformation,140,medium,Two people walking
+Crowds,person,person,background_clutter,occlusion,347,hard,Target lost in crowd
+David,face,person,illumination,occlusion,770,hard,Face sequence — partial COCO
+Deer,animal,misc,fast_motion,low_resolution,71,hard,Deer — not a COCO class
+Dudek,person,person,occlusion,deformation,1145,hard,Person behind obstacles
+Football,person,person,fast_motion,motion_blur,362,hard,Ball too small; fast motion
+Freeman4,person,person,occlusion,illumination,297,medium,Person with partial occlusion
+Girl,person,person,scale_variation,rotation,500,medium,Walking girl; scale changes
+Human4,person,person,deformation,illumination,667,medium,Deforming human silhouette
+Human6,person,person,background_clutter,fast_motion,792,hard,Person in complex scene
+Ironman,object,misc,rotation,illumination,166,hard,Fictional character — not COCO
+Jump,person,person,deformation,fast_motion,122,medium,Person mid-jump
+Jumping,person,person,fast_motion,motion_blur,313,medium,Jumping person
+Liquor,object,misc,occlusion,illumination,1741,hard,Bottle — partial COCO class
+Matrix,person,person,illumination,background_clutter,100,medium,Dark scene; matrix clip
+MotorRolling,vehicle,motorcycle,fast_motion,rotation,164,medium,Motorcycle rolling
+Shaking,person,person,camera_motion,background_clutter,365,medium,Shaky camera
+Skiing,person,person,fast_motion,scale_variation,81,hard,Fast skier; small target

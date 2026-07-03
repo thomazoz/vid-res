@@ -1,0 +1,29 @@
+Depth-2 DecisionTreeClassifier rules, SUCCESS vs FAILURE.
+Fit on ALL rows (no held-out set): read these as descriptive
+rules, not a validated classifier — n is small. NOTE: with only ~31 sequences, per-category groups are small (often n<=5); treat every per-category statistic as descriptive, not inferential.
+
+[CSRT]  n=31 (20 SUCCESS / 11 FAILURE), training accuracy=0.84 (descriptive only)
+|--- num_frames <= 305.00
+|   |--- texture_entropy <= 3.15
+|   |   |--- class: SUCCESS
+|   |--- texture_entropy >  3.15
+|   |   |--- class: FAILURE
+|--- num_frames >  305.00
+|   |--- primary_challenge_illumination <= 0.50
+|   |   |--- class: SUCCESS
+|   |--- primary_challenge_illumination >  0.50
+|   |   |--- class: FAILURE
+
+
+[YOLO]  n=30 (4 SUCCESS / 26 FAILURE), training accuracy=1.00 (descriptive only)
+|--- object_category_car <= 0.50
+|   |--- texture_entropy <= 2.21
+|   |   |--- class: SUCCESS
+|   |--- texture_entropy >  2.21
+|   |   |--- class: FAILURE
+|--- object_category_car >  0.50
+|   |--- edge_density <= 0.26
+|   |   |--- class: SUCCESS
+|   |--- edge_density >  0.26
+|   |   |--- class: FAILURE
+

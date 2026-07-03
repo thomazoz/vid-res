@@ -1,0 +1,5 @@
+model,dataset,n_classes_in_model,det_per_frame,mean_conf,fps,agreement_vs_ref,extra_boxes_per_frame,top_classes
+yolo11n.pt,COCO,80,0.47,0.76,72.4,1.0,0.0,person:40; cell phone:4; airplane:2; car:1
+yolo11s.pt,COCO,80,0.54,0.761,49.2,0.872,0.13,person:40; car:10; boat:3; skateboard:1
+yolov8s-oiv7.pt,Open Images V7,601,0.59,0.583,46.0,0.83,0.2,Person:33; Whiteboard:13; Car:13
+yolov8s-worldv2.pt,YOLO-World v2 (open-vocab),80,0.51,0.763,35.2,0.851,0.11,person:35; car:13; bird:1; parking meter:1; toilet:1

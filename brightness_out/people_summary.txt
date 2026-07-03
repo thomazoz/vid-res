@@ -1,0 +1,24 @@
+BRIGHTNESS SUMMARY - samples/people.mp4
+frames measured: 298
+
+overall classification : well-exposed
+mean luma (BT.709)     : 107.0 / 255
+exposure index         : 0.91x  (mean_luma/118; ~gain factor vs well-exposed)
+mean RMS contrast      : 43.5
+mean clip high / low   : 0.00% / 0.01%
+
+frames per band:
+  very dark    :   0.0%
+  dark         :   0.0%
+  well-exposed : 100.0%
+  bright       :   0.0%
+  over-exposed :   0.0%
+
+worst-case frames:
+  darkest        : frame 28 (mean luma 101.8)
+  brightest      : frame 42 (mean luma 118.3)
+  most clip-high : frame 386 (0.03% pixels >=250)
+  most clip-low  : frame 346 (0.92% pixels <=5)
+
+DETECTION-RISK verdict:
+  LOW RISK - well-exposed. Mean luma sits in the detector's comfort zone (exposure index 0.91x, ~0.5-1.0x-gain equivalent), with negligible clipping (high 0.0%, low 0.0%). Brightness was the mildest corruption in our sweeps; expect no meaningful brightness-related detection loss here.

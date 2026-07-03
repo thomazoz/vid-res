@@ -1,0 +1,17 @@
+streamlit
+streamlit-image-coordinates
+ultralytics
+opencv-python
+lap  # linear-assignment solver required by the ByteTrack / BoT-SORT trackers
+numpy
+pandas
+matplotlib
+plotly
+openpyxl        # xlsx reports (telemetry_overlay.py)
+scipy           # correlation stats (case_analysis.py)
+scikit-learn    # decision tree (case_analysis.py)
+seaborn
+
+# System dependency (not pip): `ffmpeg` on PATH lets outputs re-encode to
+# browser-playable H.264. On Streamlit Community Cloud it is installed via
+# packages.txt; locally: brew install ffmpeg.

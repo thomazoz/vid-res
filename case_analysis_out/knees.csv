@@ -1,0 +1,2 @@
+sequence,condition,conf_thr,knee_severity,knee_position,ladder_len,min_retention,fragility,label
+Basketball,motion_blur,0.25,15,4,7,0.032,fragile,motion_blur-fragile

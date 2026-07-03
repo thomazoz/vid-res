@@ -1,0 +1,34 @@
+# local environment & OS
+.condaenv/
+__pycache__/
+*.pyc
+.DS_Store
+.claude/
+
+# big local datasets (not needed by the cloud app; OTB pages degrade gracefully)
+ds/
+datasets/
+results/
+
+# large model weights (yolo11n.pt IS committed; others auto-download)
+yolo11l.pt
+yolo11s.pt
+yolov8s-oiv7.pt
+yolov8s-worldv2.pt
+rtdetr-l.pt
+
+# user uploads & scratch
+uploads/
+.h264_cache/
+camera_motion_run/
+test_write.txt
+bus.jpg
+
+# heavy generated media (keep CSVs/PNGs/MD/xlsx results, drop videos)
+*_out/**/*.mp4
+*_out/*.mp4
+otb_runs/*.mp4
+run_out/*.mp4
+verify_out/
+CONCLUSIONS.pdf
+CONCLUSIONS.html

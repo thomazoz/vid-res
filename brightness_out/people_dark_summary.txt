@@ -1,0 +1,24 @@
+BRIGHTNESS SUMMARY - video_robustness_out/people_dark.mp4
+frames measured: 298
+
+overall classification : very dark
+mean luma (BT.709)     : 30.2 / 255
+exposure index         : 0.26x  (mean_luma/118; ~gain factor vs well-exposed)
+mean RMS contrast      : 13.8
+mean clip high / low   : 0.00% / 0.48%
+
+frames per band:
+  very dark    : 100.0%
+  dark         :   0.0%
+  well-exposed :   0.0%
+  bright       :   0.0%
+  over-exposed :   0.0%
+
+worst-case frames:
+  darkest        : frame 28 (mean luma 28.8)
+  brightest      : frame 42 (mean luma 33.4)
+  most clip-high : frame 54 (0.00% pixels >=250)
+  most clip-low  : frame 188 (4.86% pixels <=5)
+
+DETECTION-RISK verdict:
+  MODERATE RISK - very dark. Darkness is the *mild* direction (0.2x gain -> only ~-11% mAP) but this footage is below the ~0.3x level that stayed comfortable (exposure index 0.26x). Expect some missed small/low-contrast objects; gradients are preserved, so a simple gain-up / normalization should recover most of it.
